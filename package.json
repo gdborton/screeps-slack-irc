@@ -1,0 +1,16 @@
+{
+  "name": "slack-irc-sync",
+  "version": "0.0.0",
+  "description": "A connector for slack/irc.",
+  "main": "index.js",
+  "dependencies": {
+    "slack-irc": "^3.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "slack-irc --config ./config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gary Borton <gdborton@gmail.com>",
+  "license": "ISC"
+}
